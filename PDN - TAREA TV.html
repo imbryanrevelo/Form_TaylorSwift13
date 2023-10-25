@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta sobre Taylor Swift</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #00B0FF; 
+            padding: 20px;
+            color: #004B87; 
+        }
+
+        h1 {
+            color: #FFFFFF; 
+            text-align: center;
+        }
+
+        .container {
+            background-color: #FFFFFF; 
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        select, input {
+            padding: 5px;
+            width: 100%;
+            margin-bottom: 20px;
+            background-color: #80D4FF; 
+            border: none;
+            color: #004B87; 
+        }
+
+        button {
+            background-color: #004B87; 
+            color: #FFFFFF; 
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #00335B; 
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Encuesta sobre Taylor Swift</h1>
+
+    <div class="container">
+        <form action="#" method="post">
+            <label>Nombre:</label>
+            <input type="text" name="name" placeholder="Ingresa tu nombre" required>
+
+            <label>Edad:</label>
+            <input type="number" name="age" placeholder="Ingresa tu edad" min="0" required>
+
+            <label>¿Cuál es tu álbum favorito de Taylor Swift?</label>
+            <select name="album">
+                <option value="Fearless">Fearless</option>
+                <option value="Red">Red</option>
+                <option value="1989">1989</option>
+                <option value="Lover">Lover</option>
+            </select>
+
+            <label>¿Cuál es tu canción favorita de Taylor Swift?</label>
+            <select name="song">
+                <option value="Love Story">Love Story</option>
+                <option value="Blank Space">Blank Space</option>
+                <option value="Shake It Off">Shake It Off</option>
+                <option value="Lover">Lover</option>
+            </select>
+
+            <label>¿En qué año te convertiste en fan de Taylor Swift?</label>
+            <select name="year">
+                <option value="Before 2010">Antes de 2010</option>
+                <option value="2010-2015">2010-2015</option>
+                <option value="2015-2020">2015-2020</option>
+                <option value="After 2020">Después de 2020</option>
+            </select>
+
+            <button type="submit">Enviar</button>
+			
+			<label></label>
+            <label><strong>Nota: Este viernes 27 sale 1989 Taylor's Version</strong></label>
+            <img src="https://drive.google.com/uc?export=view&id=1N9mxApWQ81zuDxz_AuG3O-6XtiL9mnR5" alt="Imagen de Taylor Swift" style="display:block; margin: 0 auto; max-width:100%;">
+        </form>
+    </div>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
